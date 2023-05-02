@@ -1,0 +1,124 @@
+@font-face {
+  font-family: font;
+  src: url(/font/MYRIADPRO.OTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: font, sans-serif;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 75px;
+  border-bottom: 2px solid #f1f1f1;
+}
+a {
+  color: #000;
+}
+nav img {
+  width: 150px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col--2 img {
+  width: 1000px;
+}
+
+.col--1 {
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.first__div {
+  margin-bottom: 80px;
+}
+.first__div h2 {
+  font-size: 30px;
+}
+.bold {
+  font-weight: 600;
+}
+.small--line {
+  width: 35%;
+  height: 1px;
+  background: #000;
+  margin: 1rem 0;
+}
+.first__div p {
+  font-size: 22px;
+}
+.title {
+  display: flex;
+}
+
+.title h1 {
+  font-size: 145px;
+  font-weight: normal;
+}
+
+.big--line {
+  width: 120px;
+  height: 12px;
+  background: #000;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.boxes {
+  display: flex;
+  margin-top: 100px;
+}
+.box:first-child {
+  margin-right: 120px;
+}
+.box {
+  width: 250px;
+}
+.box h3 {
+  font-size: 32px;
+}
+.box p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #474747;
+}
+.box a {
+  font-size: 18px;
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.line__top {
+  width: 100%;
+  height: 1px;
+  background: #f1f1f1;
+}
+
+footer {
+  flex-direction: column;
+  margin-top: 100px;
+
+  width: 100%;
+  padding: 0 100px;
+  padding-bottom: 80px;
+}
+
+.footer__container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
